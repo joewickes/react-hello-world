@@ -1,0 +1,46 @@
+/* Everything that needs to be flex, column and centered */
+.whole-body, header, #img, main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 100vw;
+}
+
+/* WHOLE BODY */
+.whole-body {
+  padding: 50px;
+}
+
+/* HEADER */
+
+header {
+  width: 100vw;
+}
+
+/* Header img */
+
+#img {
+  width: 80%;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header title */
+
+header h1 {
+  font-size: 60px;
+}
+
+/* MAIN */
+
+section {
+  width: 100%
+}
+
+#Education p, #works p, #contact-title {
+  font-size: 30px;
+  font-weight: 600;
+}
